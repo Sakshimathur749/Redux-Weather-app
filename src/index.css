@@ -1,0 +1,38 @@
+h2 {
+  color: red;
+}
+
+/* button style */
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Disabled state */
+button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+/* Style for the input */
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 200px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
